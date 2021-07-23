@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+}
+
+.mainContent{
+    width: 1026px;
+    height:600px;
+    /* background-color: blanchedalmond; */
+    display: flex;
+    vertical-align: top;
+    padding-top: 20px;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+}
+
+nav{
+    width: 1000px;
+    background-color: #FFC300;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+nav button{
+    width: 100px;
+}
+
+#search{
+    width: 600px;
+}
+
+h2{
+    margin-top: 7px;
+}
+.col-1{
+    /* background-color: #003566; */
+    width: 700px;
+    height: 550px;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    justify-content: space-between;
+}
+
+.defName{
+    width: 160px;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.defName button{
+    margin: 10px 0px;
+    width: 80px;
+    color: white;
+    background-color: #001D3D;
+}
+
+.defBox1{
+    height: 200px;
+    width: 600px;
+    /* background-color: #2765a7; */
+    text-align: center;
+    display: grid;
+    display: flex;
+    grid-template-columns: 50% 50%;
+    border: 2px solid #FFC300;
+    /* margin-bottom: 20px; */
+}
+
+.definition{
+    text-align: left;
+    padding-top: 55px;
+    font-size: 30px;
+}
+
+.col-2{
+    /* background-color: #3b74aa; */
+    width: 330px;
+    height: 170px;
+    text-align: left;
+    font-size: 18px;
+}
+
+h3{
+    width: 200px;
+    font-size: 30px;
+}
+
+/* .addDef{
+    height: 100%;
+} */
+
+.addDef{
+    height: 165px;
+    border: 2px solid #FFC300;
+    padding: 10px;
+
+}
+.addDef button{
+    width: 310px;
+    margin-top: 5px;
+    font-size: 18px;
+    color: white;
+    background-color: #001D3D;
+}
